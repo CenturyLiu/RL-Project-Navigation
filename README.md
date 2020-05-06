@@ -53,13 +53,28 @@ references: [deep Q-Network](https://storage.googleapis.com/deepmind-media/dqn/D
      |see_agent_performance.py|Help function to see the trained agent's performance|No hyperparameters involved|
    
    Note: Please change line 19 in project1_ddqn_pre_duel.py and line 20 in see_agent_performance.py
-   from 
+   from                                                                                                                                       
    `env = UnityEnvironment(file_name = "/home/centuryliu/reinforcement_learning/deep-reinforcement-learning/p1_navigation/Banana_Linux/Banana.x86_64")`
-   to 
+   to                                                                                                                                          
    `env = UnityEnvironment(file_name = "/your path/deep-reinforcement-learning/p1_navigation/Banana_Linux/Banana.x86_64")`
    
    
    
-   - Hyperparameters selection
+   - Hyperparameters selection                                                                                                   
+   The critical hyperparemeter for the agent is α, the parameter which controls how much prioritization is used. If α = 0, no prioritizaion is used; if α = 1, full priotization is used.
+   By adjusting α, I found that priotized experience replay is unsuitable in this case. The default **α = 0.6** takes **5290 episodes** to solve the task. α = 0.3 takes 2611 episodes, while **α = 0** takes only **372 episodes**. 
+   
+   ![](https://github.com/CenturyLiu/RL-Project-Navigation/blob/master/pictures/solution_5290.png)
+   >  score plot for α = 0.6, takes 5290 episodes
+   
+   ![](https://github.com/CenturyLiu/RL-Project-Navigation/blob/master/pictures/solution_2611.png)
+   >  score plot for α = 0.3, takes 2611 episodes
+   
+   ![](https://github.com/CenturyLiu/RL-Project-Navigation/blob/master/pictures/solution_372.png)
+   >  score plot for α = 0.0, take 372 episodes
+   
+   
+   
+   
 
 ## Part 4: Demo for the trained agent
