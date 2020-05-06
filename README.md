@@ -2,7 +2,7 @@
 Train an agent by value-based reinforcement learning to navigate in a large world and collect yellow bananas, while avoiding blue bananas
 
 ## Part 0: Basic reinforcement learning concept involved
-![](https://github.com/CenturyLiu/RL-Project-Navigation/blob/master/rl-basic.png)
+![](https://github.com/CenturyLiu/RL-Project-Navigation/blob/master/pictures/rl-basic.png)
 > The agent-environment interaction in Reinforcement Learning.(Source: [Sutton and Barto, 2017](http://incompleteideas.net/book/RLbook2020.pdf))
 
 In short, the simplest reinforcment learning framework involves an agent interacting with the environment. At each time step, the agent observes the **state** of the environment, choose valid **action** and receive **reward** from the environment. The interaction between the agent and the environment forms a sequence of S<sub>0</sub> ,A<sub>0</sub>, R<sub>1</sub> ,S<sub>1</sub> ,A<sub>1</sub>, R<sub>2</sub>,...,S<sub>T</sub> ,A<sub>T</sub>, R<sub>T+1</sub>       (s - states,a - action,r - reward). The goal of the agent is to learn to choose action to maximize the total reward it can receive. The total reward at time step t is given by G<sub>t</sub> = R<sub>t+1</sub> + R<sub>t+2</sub> + R<sub>t+3</sub> + ... Intuitively, agent should give more emphasis on getting reward in the near future, and pay less attention to the reward in the far future, we introduce a **discount rate γ (gamma)**. The total reward with disount rate is calculated by G<sub>t</sub> = γ\*R<sub>t+1</sub> + γ\*R<sub>t+2</sub> + γ\*R<sub>t+3</sub> + ...
