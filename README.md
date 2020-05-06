@@ -52,6 +52,14 @@ references: [deep Q-Network](https://storage.googleapis.com/deepmind-media/dqn/D
      |project1_ddqn_pre_duel.py|The main function where the agent is initialized and interact with teh environment.|No hyperparameters involved.|
      |see_agent_performance.py|Help function to see the trained agent's performance|No hyperparameters involved|
    
+   Note: Please change line 19 in project1_ddqn_pre_duel.py and line 20 in see_agent_performance.py
+   from 
+   `env = UnityEnvironment(file_name = "/home/centuryliu/reinforcement_learning/deep-reinforcement-learning/p1_navigation/Banana_Linux/Banana.x86_64")`
+   to 
+   `env = UnityEnvironment(file_name = "/your path/deep-reinforcement-learning/p1_navigation/Banana_Linux/Banana.x86_64")`
+   
+   
+   
    - Hyperparameters selection
 
 ## Part 4: Demo for the trained agent
