@@ -79,3 +79,5 @@ references: [deep Q-Network](https://storage.googleapis.com/deepmind-media/dqn/D
    The current design takes 372 episodes to solve the task. If I am going to further improve the speed for task solving, maybe i can adjust the learning rate of the agent or change the DQN network structure. 
 
 ## Part 5: Demo for the trained agent
+   ![](https://github.com/CenturyLiu/RL-Project-Navigation/blob/master/pictures/rl_banana_16.gif)
+   >The demo video for trained agent. The agent gets a score of 16.
