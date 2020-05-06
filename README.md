@@ -48,7 +48,9 @@ references: [deep Q-Network](https://storage.googleapis.com/deepmind-media/dqn/D
      | Code   | function description | hyperparameter involved |
      | ---    | -------------------- | ----------------------- |
      |model.py|Implement a dueling DQN network with 2 fully connected layers| number of neurons in the first and second fully connected layers, both set to 64 by default|
-     |dqn_agent.py|Implement an agent based on the double DQN algorithm. The Q values used in this agent are estimated by the dueling netwrok in model.py. The replay buffer used in the agent is the priotized experience replay buffer in the utils folder.|α - determine how much priotization is used |
+     |dqn_agent.py|Implement an agent based on the double DQN algorithm. The Q values used in this agent are estimated by the dueling netwrok in model.py. The replay buffer used in the agent is the priotized experience replay buffer in the utils folder.|α - determine how much priotization is used , α = 0.6 by default|
+     |project1_ddqn_pre_duel.py|The main function where the agent is initialized and interact with teh environment.|NO hyperparameters involved.|
+     ||||
    
    - Hyperparameters selection
 
