@@ -12,9 +12,9 @@ Based on whether the interation has well-defined end, reinforcement learning tas
 Mathematically, reinforcement learning can be described as a **Markov Decision Process (MDP)**, which involves **state space S**, **action space A** and **reward R**. For more detailed description of this process, I recommend you take a course for reinforcement learning (eg: [Udacity deep reinforcement learning nanodegree](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893)) or refer to the book [Sutton and Barto, 2017](http://incompleteideas.net/book/RLbook2020.pdf).  
 
 ## Part 1: Problem to solve
-   - Main goal
+   - Main goal                                                                                                                                            
      Train an agent to navigate in a large world, collecting yellow bananas while avoiding blue bananas
-   - State space
+   - State space                                                                                                           
      The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around agent's forward direction.
    - Action space
      The agent has 4 valid action:
@@ -27,9 +27,9 @@ Mathematically, reinforcement learning can be described as a **Markov Decision P
      |  --------------  | ------ |
      | Yellow           | +1     |
      | Blue             | -1     |
-   - End condition for each episode
+   - End condition for each episode                                                                                       
      The game is timed and the environment will automatically stop the episode once time is over.
-   - Requirement for solving the task
+   - Requirement for solving the task                                                                                      
      The task is considered solved when the agent gets an average score of +13 over 100 consecutive episodes. 
 ## Part 2: Idea for solving the problem
 
