@@ -43,7 +43,7 @@ references: [deep Q-Network](https://storage.googleapis.com/deepmind-media/dqn/D
      After setting up the environment, download the files in this repository and put them into /your path/deep-reinforcement-learning/p1_navigation
      Download the banana environment follow the instruction on [p1_navigation](https://github.com/udacity/deep-reinforcement-learning/tree/master/p1_navigation)
    - My solution codes
-     
+     utils folder: implementation of prioritized experience replay. This is directly cloned from [DeepRL tutorial](https://github.com/qfettes/DeepRL-Tutorials/tree/master/utils)
    
    - Hyperparameters selection
 
