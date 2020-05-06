@@ -8,8 +8,8 @@ Train an agent by value-based reinforcement learning to navigate in a large worl
 ## Part 2: Idea for solving the problem
 
 ## Part 3: Project implementation
-   ### Prerequisite for code installation
-   ### My solution codes
-   ### Hyperparameters selection
+   - Prerequisite for code installation
+   - My solution codes
+   - Hyperparameters selection
 
 ## Part 4: Demo for the trained agent
