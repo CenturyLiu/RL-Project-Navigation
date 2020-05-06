@@ -44,6 +44,11 @@ references: [deep Q-Network](https://storage.googleapis.com/deepmind-media/dqn/D
      Download the banana environment follow the instruction on [p1_navigation](https://github.com/udacity/deep-reinforcement-learning/tree/master/p1_navigation)
    - My solution codes
      utils folder: implementation of prioritized experience replay. This is directly cloned from [DeepRL tutorial](https://github.com/qfettes/DeepRL-Tutorials/tree/master/utils)
+     
+     | Code   | function description | hyperparameter involved |
+     | ---    | -------------------- | ----------------------- |
+     |model.py|Implement a dueling DQN network with 2 fully connected layers| number of neurons in the first and second fully connected layers, both set to 64 by default|
+     |dqn_agent.py|Implement an agent based on the double DQN algorithm. The Q values used in this agent are estimated by the dueling netwrok in model.py. The replay buffer used in the agent is the priotized experience replay buffer in the utils folder.|α - determine how much priotization is used |
    
    - Hyperparameters selection
 
