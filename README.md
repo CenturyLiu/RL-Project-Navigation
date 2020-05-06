@@ -71,10 +71,11 @@ references: [deep Q-Network](https://storage.googleapis.com/deepmind-media/dqn/D
    >  score plot for α = 0.3, takes 2611 episodes
    
    ![](https://github.com/CenturyLiu/RL-Project-Navigation/blob/master/pictures/solution_372.png)
-   >  score plot for α = 0.0, take 372 episodes
+   >  score plot for α = 0.0, takes 372 episodes
    
    
    
-   
+## Part 4: Further improvement discussion
+   The current design takes 372 episodes to solve the task. If I am going to further improve the speed for task solving, maybe i can adjust the learning rate of the agent or change the DQN network structure. 
 
-## Part 4: Demo for the trained agent
+## Part 5: Demo for the trained agent
