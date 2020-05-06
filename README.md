@@ -2,7 +2,7 @@
 Train an agent by value-based reinforcement learning to navigate in a large world and collect yellow bananas, while avoiding blue bananas
 
 ## Part 0: Basic reinforcement learning concept involved
-
+![](https://github.com/CenturyLiu/RL-Project-Navigation/blob/master/rl-basic.png)
 
 ## Part 1: Problem to solve
 
