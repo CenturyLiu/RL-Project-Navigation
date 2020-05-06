@@ -27,7 +27,10 @@ Mathematically, reinforcement learning can be described as a **Markov Decision P
      |  --------------  | ------ |
      | Yellow           | +1     |
      | Blue             | -1     |
-
+   - End condition for each episode
+     The game is timed and the environment will automatically stop the episode once time is over.
+   - Requirement for solving the task
+     The task is considered solved when the agent gets an average score of +13 over 100 consecutive episodes. 
 ## Part 2: Idea for solving the problem
 
 ## Part 3: Project implementation
