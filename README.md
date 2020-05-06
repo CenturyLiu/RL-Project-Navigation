@@ -32,9 +32,15 @@ Mathematically, reinforcement learning can be described as a **Markov Decision P
    - Requirement for solving the task                                                                                      
      The task is considered solved when the agent gets an average score of +13 over 100 consecutive episodes. 
 ## Part 2: Idea for solving the problem
+The agent I used for solving the problem is a mixture of double DQN, dueling DQN, and priotized experience replay.
+
+
+references: [deep Q-Network](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf), [double DQN](https://arxiv.org/abs/1509.06461) , [dueling DQN](https://arxiv.org/abs/1511.06581) , [priotized experience replay](https://arxiv.org/abs/1511.05952).
 
 ## Part 3: Project implementation
-   - Prerequisite for code installation
+   - Prerequisite                                                                                                             
+     To run the codes in this repository, please follow instruction on [Udacity deep reinforcement learning](https://github.com/udacity/deep-reinforcement-learning) to setup the environment.
+     
    - My solution codes
    - Hyperparameters selection
 
