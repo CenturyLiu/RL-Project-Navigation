@@ -58,6 +58,7 @@ references: [deep Q-Network](https://storage.googleapis.com/deepmind-media/dqn/D
    to                                                                                                                                          
    `env = UnityEnvironment(file_name = "/your path/deep-reinforcement-learning/p1_navigation/Banana_Linux/Banana.x86_64")`
    
+   Reference: when creating these codes, I take [qfettes's DeepRL-Tutorials](https://github.com/qfettes/DeepRL-Tutorials) and the codes from [Udacity deep reinforcement learning/dqn/solution](https://github.com/udacity/deep-reinforcement-learning/tree/master/dqn/solution) as reference.
    
    
    - Hyperparameters selection                                                                                                   
