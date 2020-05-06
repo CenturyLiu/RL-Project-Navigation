@@ -73,7 +73,8 @@ references: [deep Q-Network](https://storage.googleapis.com/deepmind-media/dqn/D
    ![](https://github.com/CenturyLiu/RL-Project-Navigation/blob/master/pictures/solution_372.png)
    >  score plot for α = 0.0, takes 372 episodes
    
-   
+   -saved model                                                                                                                               
+    The repository includes a file named checkpoint_372.pth, which is the model trained by the current agent. The model is solved by 372 episodes.
    
 ## Part 4: Further improvement discussion
    The current design takes 372 episodes to solve the task. If I am going to further improve the speed for task solving, maybe i can adjust the learning rate of the agent or change the DQN network structure. 
