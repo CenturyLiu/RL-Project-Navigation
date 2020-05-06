@@ -40,8 +40,11 @@ references: [deep Q-Network](https://storage.googleapis.com/deepmind-media/dqn/D
 ## Part 3: Project implementation
    - Prerequisite                                                                                                             
      To run the codes in this repository, please follow instruction on [Udacity deep reinforcement learning](https://github.com/udacity/deep-reinforcement-learning) to setup the environment.
-     
+     After setting up the environment, download the files in this repository and put them into /your path/deep-reinforcement-learning/p1_navigation
+     Download the banana environment follow the instruction on [p1_navigation](https://github.com/udacity/deep-reinforcement-learning/tree/master/p1_navigation)
    - My solution codes
+     
+   
    - Hyperparameters selection
 
 ## Part 4: Demo for the trained agent
